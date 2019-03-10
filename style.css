@@ -1,0 +1,51 @@
+.bloc-img{
+    height: 450px;
+    width: 400px;
+    }
+
+.img_de_gandalf{
+    height: 450px;
+    width: 400px;
+    opacity: 0.4;
+}
+
+.text_interne{
+    position: absolute ;
+    width: 400px;
+    top: 20px;
+    text-align: center;
+}
+
+.reward{
+    font-size: 2.5em;
+    background-color: #FAEBD7;
+    color: black;
+    border-radius: 14px;
+    width: 80%;
+    margin-left: 30px;
+
+}
+.text_interne span{
+    color: orange;
+    font-weight: bold;
+}
+
+.text_img{
+    margin-bottom: 200px;
+    font-size:  3.5em;
+    color: white;
+}
+
+img:hover{
+    opacity: 1;
+}
+
+.bloc-img:hover .text_interne{visibility: hidden;}
+
+.bloc-img:hover .reward{visibility: hidden;}
+
+.bloc-img:hover .text_img{
+    font-size: 1.5em;
+    margin-top: 200px;
+}
+
